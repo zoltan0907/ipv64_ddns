@@ -18,7 +18,7 @@ function log() {
 	STIMESTEMP=$(date +%Y-%m-%d\ %H:%M:%S)
 	LOGFILE=$(date +%Y-%m-%d)
 	echo "$STIMESTEMP | [$2] | $1"
-	echo "$STIMESTEMP | [$2] | $1" >> /var/log/ipv64-ddns-update/ipv64_ddns_update_"$LOGFILE".log
+	#echo "$STIMESTEMP | [$2] | $1" >> /var/log/ipv64-ddns-update/ipv64_ddns_update_"$LOGFILE".log
 }
 
 
