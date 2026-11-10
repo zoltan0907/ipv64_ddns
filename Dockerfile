@@ -1,6 +1,6 @@
 FROM python:alpine
 
-RUN apk add --no-cache iproute2
+RUN apk add --no-cache iproute2 bind-tools
 
 WORKDIR /usr/src/app
 
